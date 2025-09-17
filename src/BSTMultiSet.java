@@ -61,6 +61,7 @@ public class BSTMultiSet extends MultiSet {
      */
     @Override
     int size() {
+
         return bst.getSize();
     }
 }
